@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./globals.css";
 
 export const metadata = {
@@ -8,7 +9,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <nav className="flex gap-20 text-xl mb-2">
+          
+          <Link href="./">Logo</Link>
+          <Link href="./">Home</Link>
+          <Link href="./blog">Blog</Link>
+        </nav>
+        {children}
+      </body>
     </html>
   );
 }
