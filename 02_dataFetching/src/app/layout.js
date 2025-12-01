@@ -2,7 +2,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata = {
-  title: "Nextjs Course",
+  title: "Data Fetching",
   description: "Nextjs Crash Course By CoderGyan",
 };
 

@@ -1,7 +1,7 @@
 const page = async ({ params }) => {
   const { slug } = await params;
   console.log(slug);
-
+  
   return (
     <div>
       <h1>Single Article Page: {slug}</h1>
