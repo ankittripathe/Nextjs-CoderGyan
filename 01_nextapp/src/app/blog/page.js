@@ -17,13 +17,18 @@ const page = () => {
 
   return (
     <div>
+      <nav className="flex gap-20 text-xl mb-2">
+        <Link href="./">Logo</Link>
+        <Link href="./">Home</Link>
+        <Link href="./blog">Blog</Link>
+      </nav>
+
       <h1>Blog Posts</h1>
 
       <div>
         {posts.map((mypost) => {
           return (
             <div key={mypost.id}>
-
               <Link href={`/blog/${mypost.id}`}>
                 <h2>{mypost.title}</h2>
               </Link>
