@@ -1,1 +1,1 @@
-# Nextjs Crash Course for Beginners By CoderGyan 
+# Nextjs Crash Course for Beginners By CoderGyan
