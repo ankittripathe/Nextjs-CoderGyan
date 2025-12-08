@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const page = () => {
+const blogPage = () => {
   const posts = [
     {
       id: 1,
@@ -16,15 +16,15 @@ const page = () => {
   ];
 
   return (
-    <div>
-      <h1>Blog Posts</h1>
+    <div className="text-center text-xl">
+      <h1>Blog Posts...</h1>
 
       <div>
         {posts.map((mypost) => {
           return (
             <div key={mypost.id}>
               <Link href={`/blog/${mypost.id}`}>
-                <h2>{mypost.title}</h2>
+                <h2 className="text-blue-600">{mypost.title}</h2>
               </Link>
               <p>{mypost.body}</p>
             </div>
@@ -35,4 +35,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default blogPage;

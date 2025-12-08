@@ -3,11 +3,10 @@ const page = async ({ params }) => {
   console.log(slug);
 
   return (
-    <div>
+    <div className="text-center">
       <h1>Single Article Page: {slug}</h1>
     </div>
   );
 };
 
 export default page;
-
