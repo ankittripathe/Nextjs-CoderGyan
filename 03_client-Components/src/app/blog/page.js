@@ -6,7 +6,8 @@ const BlogPage = async () => {
   // const data = await 
   // const posts = await data.json();
 
-  const myPromise = fetch("https://jsonplaceholder.typicode.com/posts").then((res)=>res.json())
+  const myPromise = fetch("https://jsonplaceholder.typicode.com/posts")
+  .then((res)=>res.json())
 
   return (
     <div>
