@@ -6,11 +6,11 @@ export const metadata = {
   description: "Nextjs Crash Course By CoderGyan",
 };
 
-export default function RootLayout({ children }) {
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
-        <nav className="flex gap-20 text-xl mb-2">
+        <nav className="flex justify-around gap-60 bg-sky-700 py-2 text-xl mb-10">
           <Link href="./">Logo</Link>
           <Link href="./">Home</Link>
           <Link href="./blog">Blog</Link>
@@ -19,4 +19,5 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
+};
+export default RootLayout;
