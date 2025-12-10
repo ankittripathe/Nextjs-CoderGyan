@@ -5,7 +5,7 @@ const SlugPage = async ({ params }) => {
   console.log(slug);
 
   return (
-    <div className="text-center">
+    <div className="text-center text-xl">
       <h1>Single Article Page: {slug}</h1>
     </div>
   );

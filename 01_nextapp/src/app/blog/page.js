@@ -17,7 +17,7 @@ const BlogPage = () => {
 
   return (
     <div className="text-center text-xl">
-      <h1>Blog Posts...</h1>
+      <h1 className="mb-3">Blog Posts..</h1>
 
       <div>
         {posts.map((mypost) => {
