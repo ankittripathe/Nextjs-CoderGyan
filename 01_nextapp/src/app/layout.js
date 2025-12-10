@@ -6,7 +6,7 @@ export const metadata = {
   description: "Nextjs Crash Course By CoderGyan",
 };
 
-export default function RootLayout({ children }) {
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
@@ -19,4 +19,5 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
+};
+export default RootLayout;

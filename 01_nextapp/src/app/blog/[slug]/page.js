@@ -1,4 +1,6 @@
-const page = async ({ params }) => {
+import React from "react";
+
+const SlugPage = async ({ params }) => {
   const { slug } = await params;
   console.log(slug);
 
@@ -9,4 +11,4 @@ const page = async ({ params }) => {
   );
 };
 
-export default page;
+export default SlugPage;

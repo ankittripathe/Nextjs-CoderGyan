@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const blogPage = () => {
+const BlogPage = () => {
   const posts = [
     {
       id: 1,
@@ -35,4 +35,4 @@ const blogPage = () => {
   );
 };
 
-export default blogPage;
+export default BlogPage;
